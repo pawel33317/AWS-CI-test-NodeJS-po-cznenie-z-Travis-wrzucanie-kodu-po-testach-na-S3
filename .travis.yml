@@ -7,6 +7,6 @@ deploy:
     secure: SaRZd2oWfTRjTFT52NZjOrYGmYFJ2gGQg0tl3gUVelTYkpaj8FrRhZA3an/ah+Tz3D5lJ95ocmSI1Ul0LqgOvDlv+5Tdglo5q0hGmLAE8izumIv8Nmmj4jkLZn6MluRnpJmA53xnEAEQAHmnCkjyQKyj2fx+CHQjNtqaK/HHa58=
   bucket: deploy-weeia
   upload-dir: czubak
-  acl: ''
+  acl: 'FULL_CONTROL'
   on:
     repo: pawel33317/ciTestCzubak
