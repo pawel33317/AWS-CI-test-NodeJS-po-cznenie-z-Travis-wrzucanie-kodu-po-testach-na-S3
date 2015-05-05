@@ -1,2 +1,12 @@
 language: node_js
 before_install: npm install -g mocha
+deploy:
+  provider: s3
+  access_key_id: AKIAI7RMLCOJV22L2XNA
+  secret_access_key:
+    secure: SaRZd2oWfTRjTFT52NZjOrYGmYFJ2gGQg0tl3gUVelTYkpaj8FrRhZA3an/ah+Tz3D5lJ95ocmSI1Ul0LqgOvDlv+5Tdglo5q0hGmLAE8izumIv8Nmmj4jkLZn6MluRnpJmA53xnEAEQAHmnCkjyQKyj2fx+CHQjNtqaK/HHa58=
+  bucket: deploy-weeia
+  upload-dir: czubak
+  acl: ''
+  on:
+    repo: pawel33317/ciTestCzubak
